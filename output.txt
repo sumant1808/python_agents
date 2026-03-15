@@ -1,0 +1,23 @@
+1. === UserPromptNode: What will the weather be like in Paris on Tuesday? ===
+
+2. === ModelRequestNode: streaming partial request tokens ===
+
+3. [Request] Starting part 0: ToolCallPart(tool_name='weather_forecast', args={'forecast_date': '2024-05-21', 'location': 'Paris'}, tool_call_id='djyq9i66', provider_name='google-gla', provider_details={'thought_signature': 'EvsECvgEAb4+9vueobeI81yl2zW+vCa+VgKgbu1UrwwdBXDjey8UebLDyBVB2KsUX8WpW26DnmEbll2YSGbdkXhofSiQVag/5/Bz9trGN6xwJpUvobQ+DR5V83+aKHjmPA4McTm0iBiOE0ORE1zC1Hhe4S0nwxY2T3MfG9rrMsRp/90HYtlqcPenTLmoD05XmqXYO/KftDRIAtrkshAKfenM2WaDTQdrdmueqbEJF+KNzhHjzJaXkvguBnkemBLB9/UtCHm8k8FEdy+DU9EWLdYUrjfJNywsorRxTc7ijAkziMYqNz0OZUiQpsyGgNx+pP3T3eUBfNCJWftv1udQB2jaoQL+bnb9tqKIyJKKXjOsjv6SUrwzQrzmYs9kMK2LI0NSt2/A6rxIXzKvKuA313QaEift4hvY+u7ilnvjfWRwCMKCOJWwvYkb3J900q0RGBZn6ROOY00B3CGbQ7Ig8nb5Q8xgCsBnOo/VmybrujAKn6rhBX3mT0v9InKIxkq3CGVRAZU4UFaW500g8Gf+vZ3Y9WwGSs8fKXCkASLNXch8vTeZ4iCUWgDubZf6HJCfL2+N6PyZaMMqJgX92+msoP2pUz1O4Pp6TiceYn2cESYKR9QrH5FirFYKGV6b5WChDoijesZn3Bvg2eHTfZfn5Cvj5dIHD9EhLTUULTv+4jdlZGCgm35QYEhC5cjCJA5FLtXGHZv/XehoFDDZo00h4SKOPJEJIkQNIK1C8j1dvx6sGBT5beqw0ZoGdXUxRw4vrMldbDa/qdnv2PM2vv2esYYyl0C06MFybE5PMKst0rqSdBNsuNcjmYUqvBVf5+nX9cfGWiEDmkin5gzBLwE='})
+
+4. === CallToolsNode: streaming partial response & tool usage ===
+
+5. [Tools] The LLM calls tool='weather_forecast' with args={'forecast_date': '2024-05-21', 'location': 'Paris'} (tool_call_id='djyq9i66')
+
+6. [Tools] Tool call 'djyq9i66' returned => The weather in Paris on 2024-05-21 was 18°C and partly cloudy.
+
+7. === ModelRequestNode: streaming partial request tokens ===
+
+8. [Request] Starting part 0: TextPart(content='The weather in Paris')
+
+9. [Result] The model started producing a final result (tool_name=None)
+
+10. [Output] The weather in Paris on Tuesday, May 21, 2024, will be 18°C and partly cloudy.
+
+11. === CallToolsNode: streaming partial response & tool usage ===
+
+12. === Final Agent Output: The weather in Paris on Tuesday, May 21, 2024, will be 18°C and partly cloudy. ===
