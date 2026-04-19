@@ -1,2 +1,5 @@
 .venv
 .env
+conversation_history.txt
+*.pdf
+.DS_Store
