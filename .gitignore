@@ -3,3 +3,5 @@
 conversation_history.txt
 *.pdf
 .DS_Store
+.obsidian
+Clippings

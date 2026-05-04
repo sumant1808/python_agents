@@ -2,3 +2,13 @@ langgraph
 langsmith
 langchain
 pinecone
+graphiti-core
+graphiti-llm
+graphiti-pinecone
+graphiti-redis
+redis
+redis-om
+redis-om[redisearch]
+redis-om[redisgraph]
+redis-om[redisjson]
+redis-om[redisai]   
