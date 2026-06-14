@@ -5,3 +5,6 @@ conversation_history.txt
 .DS_Store
 .obsidian
 Clippings
+langchain_prj/__pycache__
+langchain_prj/.cognee_system
+langchain_prj/.data_storage
